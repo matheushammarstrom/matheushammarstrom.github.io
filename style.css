@@ -1,0 +1,15 @@
+body{
+    font-family: Montserrat;
+    background-color: #353A47;
+    color: #DED6D6;
+}
+a{
+    color: white;
+}
+.heading{
+    font-weight: 500;
+    font-size: 30px;
+}
+.skills-list{
+    line-height: 150%;
+}
