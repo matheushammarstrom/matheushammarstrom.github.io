@@ -7,7 +7,19 @@ a{
     color: white;
 }
 .header{
-    background-color: seagreen;
+    background-color:#499f68;
+    height: 65px;
+    position: relative;
+    
+}
+.link-nav{
+    position: relative;
+    margin-left: 300px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
 }
 .heading{
     font-weight: 500;
