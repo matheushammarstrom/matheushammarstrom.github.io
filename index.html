@@ -10,39 +10,42 @@
 
 </head>
 <body>
-    <div class ="header"> 
-        <nav class = "navegacao">  
-            <a href="#foto" class = "link-nav"> Quem sou eu</a>
-            <a href="#habilidades" class = "link-nav"> Minhas habilidades</a>
-            <a href="#recomendacoes" class = "link-nav"> Sites recomendados</a>
-            </nav>
-    </div>
+    <header class ="header"> 
+        <nav class = "navegacao"> 
+            <ul>
+            <li class = "section-links"><a href="#foto" class = "link-nav"> Quem sou eu</a></li>
+            <li class = "section-links"><a href="#habilidades" class = "link-nav"> Minhas habilidades</a></li>
+            <li class = "section-links"><a href="#recomendacoes" class = "link-nav"> Sites recomendados</a></li>
+            </ul> 
+        </nav>
+    </header>
    
-
-    <div class = "about-me-container">  
-        <h1 class="heading">Matheus Felippe Hammarstrom</h1>
-        <div class = "about-me">
-            <img id = "minha-foto" src ="./images/eu.JPG" alt="Foto de Matheus Hammarstrom"><br>
-            <p class="description">Meu nome é Matheus Felippe Hammarstrom, e atualmente realizando um curso da Trybe para me tornar um <strong>Desenvolvedor Web</strong>. Sou brasileiro, tenho 19 anos, e moro na cidade de Itapetininga-SP.</p>  
-        </div>   
-    </div>
-    <div>   <!--Links pessoais-->
-        <a href="https://github.com/matheushammarstrom" target="_blank">GitHub</a><br>
-        <a href="https://www.linkedin.com/in/matheushammarstrom/" target="_blank">LinkedIn</a>
-    </div>
-    <div>   <!-- Lista de Habilidades -->
-        <h4 id="habilidades">Habilidades</h4>
-        <ul class="skills-list">
-            <li>Comunicacao</li>
-            <li>Organizacao</li>
-            <li>Lideranca</li>
-            <li>Analise de problemas</li>
-            <li>Gestao de projetos</li>
-        </ul>
-    </div>
-    <div>   <!---Links externos-->
-        <h4 id="recomendacoes">Sites Recomendados</h4>
-        <a href="https://olhardigital.com.br" target ="_blank">Olhar Digital</a>
+    <div class = "main-container">
+        <div class = "about-me-container">  
+            <h1 class="heading">Matheus Felippe Hammarstrom</h1>
+            <div class = "about-me">
+                <img id = "minha-foto" src ="./images/eu.JPG" alt="Foto de Matheus Hammarstrom"><br>
+                <p class="description">Meu nome é Matheus Felippe Hammarstrom, e atualmente realizando um curso da Trybe para me tornar um <strong>Desenvolvedor Web</strong>. Sou brasileiro, tenho 19 anos, e moro na cidade de Itapetininga-SP.</p>  
+            </div>   
+        </div>
+        <section class ="social-media">   
+            <a href="https://github.com/matheushammarstrom" target="_blank"><img src="images/gitlogo.png" alt="Logo github" class="logos"></a>
+            <a href="https://www.linkedin.com/in/matheushammarstrom/" target="_blank"><img src="images/linkedinlogo.png" alt="Logo linkedin" class="logos"></a>
+        </section class ="social-media">
+        <section class ="skills">   
+            <h4 id="habilidades">Habilidades</h4>
+            <ul class="skills-list">
+                <li>Comunicacao</li>
+                <li>Organizacao</li>
+                <li>Lideranca</li>
+                <li>Analise de problemas</li>
+                <li>Gestao de projetos</li>
+            </ul>
+        </section class ="skills">
+        <section class ="external-links">  
+            <h4 id="recomendacoes">Sites Recomendados</h4>
+            <a href="https://olhardigital.com.br" target ="_blank">Olhar Digital</a>
+        </section class ="external-links">
     </div>
     
 

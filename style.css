@@ -2,6 +2,10 @@ body{
     font-family: Montserrat;
     background-color: #353A47;
     color: #DED6D6;
+    margin: 0px;
+}
+.main-container{
+    margin-left: 10px;
 }
 a{
     color: white;
@@ -10,6 +14,7 @@ a{
     background-color:#499f68;
     height: 65px;
     position: relative;
+    
     
 }
 .link-nav{
@@ -21,6 +26,9 @@ a{
     font-weight: 700;
     text-decoration: none;
 }
+.section-links{
+    display: inline-block;
+}
 .heading{
     font-weight: 500;
     font-size: 30px;
@@ -30,6 +38,7 @@ a{
     margin-bottom: 10px;
     border: solid 2px rgb(218, 207, 207);
     height: 311px;
+    padding-left: 0px;
 }
 .description{
     position: absolute;
@@ -50,6 +59,9 @@ a{
     width: 130px;
     margin-right: 20px;
 }
-div{
+/* div,section{
     border: 1px solid salmon;
+} */
+.logos{
+    width: 40px;
 }
