@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <section class = 'main-section container'>
+        <header>
+            <h1 class='display-3'>Minha Lista de Tarefas</h1>
+            <h3 class="lead">Funcionamento:</h3>
+            <p id ='funcionamento' class="lead">Clique duas vezes em um item para marcá-lo como completo</p>
+            <div  class="input-group mb-3">
+                <input type="text" id='texto-tarefa' class="form-control">
+                <button id='criar-tarefa' class='btn btn-success'>Adicionar</button>
+            </div>
+            
+        </header>
+        <div class='list-container list-group-numbered'>
+            <ol id ='lista-tarefas'>
+            </ol>
+        </div class='list-container'>
+        <div class="buttons container">
+            <button id='remover-finalizados' class="btn btn-danger">Apagar feitas</button>
+            <button id="apaga-tudo" class="btn btn-danger">Apagar todas</button>
+            <button id="salvar-tarefas" class ='btn btn-primary'>Salvar</button>
+            <button id='mover-cima' class="btn btn-secondary">Mover pra cima</button>
+            <button id='mover-baixo' class="btn btn-secondary">Mover pra baixo</button>
+            <button id="remover-selecionado" class="btn btn-danger">Remover selecionado</button>
+          </div>
+    </section class = 'main-section'>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
