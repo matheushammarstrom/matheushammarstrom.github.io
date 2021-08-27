@@ -71,7 +71,7 @@ function moveUp() {
   const index = allTasks.length;
   for (let count = 0; count < index; count += 1) {
     if (allTasks[count].classList.contains('selected')) {
-      const taskSelectedId = count;
+      var taskSelectedId = count;
     }
   }
   if (taskSelectedId > 0) {
